@@ -38,7 +38,7 @@ function criarCardProduto(produto) {
 
 const botaoDetalhes = document.createElement("a");
     botaoDetalhes.classList.add("botao-detalhes");
-    botaoDetalhes.href = `detalhes.html?id=${produto.id}`;
+    botaoDetalhes.href = `/html/detalhes.html?id=${produto.id}`;
     botaoDetalhes.textContent = "Ver detalhes";
 
   const imagem = document.createElement("img");
